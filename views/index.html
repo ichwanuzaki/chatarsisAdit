@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>chatarsis</title>
+
+    <link rel="stylesheet" href="../css/style.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">  
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header>
+      <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <class class="navbar-brand" href="#">
+                <img class="gambar" src="../resource/Chatarsis.png"></class>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <hr class="d-md-none text-white-50">
+            <ul class="navbar-nav flex-row flex-wrap ms-md-auto">
+              <li class="nav-item col-6 col-md-auto">
+                <a class="nav-link p-2" href="#" target="_blank" rel="noopener">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" class="navbar-nav-svg d-inline-block align-text-top" viewBox="0 0 32 32" role="img"><title>Whatsapp</title><path fill="currentColor" d="M19.11 17.205c-.372 0-1.088 1.39-1.518 1.39a.63.63 0 0 1-.315-.1c-.802-.402-1.504-.817-2.163-1.447-.545-.516-1.146-1.29-1.46-1.963a.426.426 0 0 1-.073-.215c0-.33.99-.945.99-1.49 0-.143-.73-2.09-.832-2.335-.143-.372-.214-.487-.6-.487-.187 0-.36-.043-.53-.043-.302 0-.53.115-.746.315-.688.645-1.032 1.318-1.06 2.264v.114c-.015.99.472 1.977 1.017 2.78 1.23 1.82 2.506 3.41 4.554 4.34.616.287 2.035.888 2.722.888.817 0 2.15-.515 2.478-1.318.13-.33.244-.73.244-1.088 0-.058 0-.144-.03-.215-.1-.172-2.434-1.39-2.678-1.39zm-2.908 7.593c-1.747 0-3.48-.53-4.942-1.49L7.793 24.41l1.132-3.337a8.955 8.955 0 0 1-1.72-5.272c0-4.955 4.04-8.995 8.997-8.995S25.2 10.845 25.2 15.8c0 4.958-4.04 8.998-8.998 8.998zm0-19.798c-5.96 0-10.8 4.842-10.8 10.8 0 1.964.53 3.898 1.546 5.574L5 27.176l5.974-1.92a10.807 10.807 0 0 0 16.03-9.455c0-5.958-4.842-10.8-10.802-10.8z"></path></svg>
+                  <small class="d-md-none ms-2">Whatsapp</small>
+                </a>
+              </li>
+              <li class="nav-item col-6 col-md-auto">
+                <a class="nav-link p-2" href="#" target="_blank" rel="noopener">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" class="navbar-nav-svg d-inline-block align-text-top" viewBox="0 0 20 20" role="img"><title>Facebook</title><path fill="currentColor" d="M11.344,5.71c0-0.73,0.074-1.122,1.199-1.122h1.502V1.871h-2.404c-2.886,0-3.903,1.36-3.903,3.646v1.765h-1.8V10h1.8v8.128h3.601V10h2.403l0.32-2.718h-2.724L11.344,5.71z"></path></svg>
+                  <small class="d-md-none ms-2">Facebook</small>
+                </a>
+              </li>
+              <li class="nav-item col-6 col-md-auto">
+                <a class="nav-link p-2" href="#" target="_blank" rel="noopener">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" class="navbar-nav-svg d-inline-block align-text-top" viewBox="0 0 20 20" role="img"><title>Instagram</title><path fill="currentColor" d="M14.52,2.469H5.482c-1.664,0-3.013,1.349-3.013,3.013v9.038c0,1.662,1.349,3.012,3.013,3.012h9.038c1.662,0,3.012-1.35,3.012-3.012V5.482C17.531,3.818,16.182,2.469,14.52,2.469 M13.012,4.729h2.26v2.259h-2.26V4.729z M10,6.988c1.664,0,3.012,1.349,3.012,3.012c0,1.664-1.348,3.013-3.012,3.013c-1.664,0-3.012-1.349-3.012-3.013C6.988,8.336,8.336,6.988,10,6.988 M16.025,14.52c0,0.831-0.676,1.506-1.506,1.506H5.482c-0.831,0-1.507-0.675-1.507-1.506V9.247h1.583C5.516,9.494,5.482,9.743,5.482,10c0,2.497,2.023,4.52,4.518,4.52c2.494,0,4.52-2.022,4.52-4.52c0-0.257-0.035-0.506-0.076-0.753h1.582V14.52z"></path></svg>
+                  <small class="d-md-none ms-2">Instagram</small>
+                </a>
+              </li>
+            </ul>
+        </div>
+      </nav>
+  </header>
+
+   <!-- Landing Page -->
+  <main>
+    <div class="top__wrapper">
+      <div class="jumbotron">
+        <div class="container">
+          <div class="col-md-5">
+            <h1 class="display-4 fw-normal">Chatarsis<br>Teman Curhat Kamu</h1>
+            <br>
+            <p class="lead fw-normal">Ceritakan tentang masalah yang sedang kamu hadapi bersama Chatarsis. Dapatkan tanggapan dari psikolog profesional & juga pengguna lainnya.</p>
+            <a class="btn btn-outline-secondary" href="#">Daftar Sekarang</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="btm__wrapper">
+      <div class="container">  
+        <div class="top_text">
+          <div class="col-7">
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <h2>Curhat bersama psikolog profesional</h2>
+            <br>
+            <p class="lead fw-normal">Dapatkan tanggapan dari psikolog profesional Chatarsis secara gratis maupun berbayar.</p>
+          </div>
+        </div>
+        <div class="btm_text">
+          <div class="col-7">
+            <h2>Curhat sebagai anonim</h2>
+            <br>
+            <p class="lead fw-normal">Gunakan fitur anonymous yang kami sediakan, agar identitas kamu bisa terjamin kerahasiaannya.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+        <p class="end text-center"> Copyright @2020 Chatarsis, Teman Curhat Kamu </p>
+    </div>
+  </footer>
+</body>
+</html>
